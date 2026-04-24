@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TUGAS4</title>
+</head>
+<body>
+<header>
+<fieldset>
+<legend><h3>FORMULIR BIODATA MAHASISWA</h3></legend>
+<label for="name">Nama</label><br>
+<input type="text" id=""name name="name" placeholder="masukkan nama lengkap..."><br>
+<label for="nim">Nim</label><br>
+<input type="number" id="nim"name name="nim" placeholder="masukkan nim..."><br>
+<p>Jenis kelamin : 
+<label for="laki-laki">laki-laki</label>
+<input type="radio" id="laki-laki" name="kelamin">
+<label for="perempuan">perempuan</label>
+<input type="radio" id="perempuan" name="kelamin"><br>
+</p>
+<label for="lahir">Tgl Lahir</label><br>
+<input type="date" id="lahir"><br>
+<label for="alamat">Alamat</label><br>
+<textarea id="alamat" placeholder="masukkan alamat lengkap..."></textarea><br>
+<label for="phone">No Telepon</label><br>
+<input type="tel" id="phone" name="phone" placeholder="+6281-2326-05731"><br><br>
+<label for="agama">Agama</label>
+<select id="agama" name="agama" required>
+<option value="">--pilih agama--</option>
+<option value="islam">Islam</option>
+<option value="kristen">Kristen</option>
+<option value="katolik">Katolik</option>
+<option value="hindu">Hindu</option>
+<option value="budha">Budha</option>
+<option value="konghucu">Konghucu</option>
+</select><br>
+<p>Pilih Hobi Anda:
+<input type="checkbox" id="hobi1" name="hobi" value="membaca">
+<label for="hobi1">Membaca</label>
+<input type="checkbox" id="hobi2" name="hobi" value="memancing">
+<label for="hobi2">Memancing</label>
+<input type="checkbox" id="hobi3" name="hobi" value="bersepeda">
+<label for="hobi3">bersepeda</label>
+<input type="checkbox" id="hobi4" name="hobi" value="lari">
+<label for="hobi4">lari</label>
+</p>
+<button type="submit" onclick="alert('data Terkirim..!!')">Kirim</button>
+</fieldset>
+</body>
+</html>
